@@ -9,5 +9,5 @@ if(!@mysql_connect($db_server, $db_user, $db_pass))
 
     mysql_query("SET NAMES utf8");
 if(!@mysql_select_db($db_name))
-		die("無法使用資料庫")
+		die("無法使用資料庫");
 ?>
