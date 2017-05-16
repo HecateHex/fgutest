@@ -14,8 +14,10 @@
         $(function() {
         $('.date-picker').datepicker( {
         changeMonth: true,
-        changeYear: true,
+        changeYear: false,
         showButtonPanel: true,
+		minDate :+0,
+		maxDate :'+1M',
         dateFormat: 'MM yy',
         onClose: function(dateText, inst) {
             var month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
