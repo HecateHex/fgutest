@@ -45,6 +45,7 @@
     <section class="sidebar"> 
     <label for="startDate">Month select :</label>
     <input name="startDate" id="startDate" class="date-picker" />
+    <input type="button" name="search" value="查詢">
     <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
     </section>
 
