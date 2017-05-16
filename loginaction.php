@@ -4,7 +4,7 @@
 
 <?php  
 
-	include("config.php")
+	include("config.php");
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
@@ -15,11 +15,10 @@
 	if($username!=null && $password!=null && $row[1]==$id && $row[2]==$password)
 	{
 		$_SESSION['username'] = $username ;
-		
+
 		echo header('location: dwtest1.php');
 	}
 	else
 	{
 		echo header('location: index.php') ; 
 	}
-?>
