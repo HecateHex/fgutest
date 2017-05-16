@@ -25,7 +25,7 @@
             });
         });
     </script>
-</head>
+</head> 
 <body>
 <div id="mainWrapper">
   <header> 
